@@ -14,8 +14,7 @@ console.log(myObj);
 
 // 2
 
-var decimal2 = myNum;
-console.log(myNum.toFixed(2));
+var decimal2 = myNum.toFixed(2);
 
 // 3
 
@@ -42,11 +41,11 @@ var myTest = 20;    console.log(myTest);
 // 5
 
 var myPi = Math.PI;
-    myRound = 89.279;
+    myRound = Math.round(89.279);
     myRandom = Math.random()*10;
     myPow = Math.pow(3,5);
 console.log(myPi);
-console.log(Math.round(myRound));
+console.log(myRound);
 console.log(myRandom);
 console.log(myPow);
 
